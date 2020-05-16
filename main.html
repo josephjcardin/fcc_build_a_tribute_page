@@ -2,16 +2,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute to World Wildlife Federation</title>
+    <title>Tribute to World Wildlife Fund</title>
 </head>
+<style>
+    #title {
+        text-align:center;
+        font-size: 70;
+        background-color:rgb(72, 72, 2);
+        color: snow;
+    }
+    #img-div {
+        text-align: center;
+        align-items: center;
+    }
+    #image {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;   
+    }
+    #img-caption {
+        text-align: center;
+        
+    }
+    #footer {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        border-width: 2px;
+        border-color:midnightblue;
+        border-style: solid;
+        background-color: slategrey;
+        color: snow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p {
+        text-align: justify;
+        font-size: x-large;
+        padding: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .footer_image {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto; 
+    }
+</style>
 <body>
-    <header>
-        <h1 id="title">Tribute to the World Wildlife Federation</h1>
-    </header>
     <main id="main">
-        <div id="img-div">
+        <h1 id="title">World Wildlife Fund</h1>
+        <figure id="img-div">
+            <img id = "image" src="https://c402277.ssl.cf1.rackcdn.com/photos/18134/images/hero_full/Medium_WW226365.jpg?1574452099">
+            <figcaption id= "img-caption">Photo of a tiger laying down.</figcaption>
+        </figure>
+
+        <div>
+            <h2>About the WWF</h2>
+            <p id="tribute-info"> 
+                In 1961 the World Wildlife Fund was established to create an international fundraising
+                orgranization to collect funds for conservation groups around the world.
+                
+                Throughout the decades the WWF has worked to purchase thousands of acres of land 
+                spread across the world to create conservation lands.  For example, in 1973 the WWF purchased
+                37,000 acres adjacent to Kenya's Lake Nakuru which nearly 30 different bird species are dependent 
+                on the lake.  The WWF has raised millions of dollars and specific funds to help save the worlds 
+                most endagered species.  
+            
+                To learn more about the WWF amazing history <a href="https://www.worldwildlife.org/about/history"
+                target="_blank">
+                click here. </a>
+            </p>
+        </div>
+        <div>
+            <h2>Make an Impact: Donate</h2>
+                <p>I personally make a monthly donation to the WWF and I encourage you to!
+               
+                To make a monthly or one time donation <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWE2007OQ18299A01179RX&_ga=2.257180808.280396224.1589484897-1324651361.1589484897" 
+                target = "_blank" id="tribute-link">click here!</a>
+            </p>
         </div>
 
     </main>
+   
+    <footer id="footer">
+        <img  class = "footer_image" alt= "Picture of a Gorilla" src="https://c402277.ssl.cf1.rackcdn.com/photos/18330/images/hero_full/Mountain_Gorilla_Silverback_WW22557.jpg?1576515753">
+    </footer>
 </body>
 </html>
